@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.info ul{
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(187, 175, 183);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #111010;
+}
+
+    /* QUESTION 1 */
+
+.qn1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.q {
+    border: 5px solid rgb(95, 187, 53) ;
+    padding: 10px;
+    text-align:center;
+    font-size: 20px;
+    color: #c42b2b;
+}
+
+.main {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #222020;
+}
+
+.box1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: #54a5ca;
+    border: 20px solid rgb(143, 34, 143);
+    padding: 40px;
+    margin: 70px;
+}
+
+.box2 {
+    text-align: start;
+    font-weight: bold;
+    background-color: #cdcf4f;
+    border: 30px solid rgb(20, 131, 44);
+    padding: 20px;
+    margin: 30px;
+}
+
+p {
+    font-size: 24px;
+    background-color: rgb(146, 145, 145);
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: black;
+}
+
+.container img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: 5px;
+}
+.container :hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
